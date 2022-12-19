@@ -1,0 +1,132 @@
+[
+	{
+		"station": "--/河原町",
+		"arrival": "",
+		"depuature": "6:17:30"
+	},
+	{
+		"station": "50/烏 丸",
+		"arrival": "6:19:05",
+		"depuature": "6:19:25"
+	},
+	{
+		"station": "80/大 宮",
+		"arrival": "6:20:50",
+		"depuature": "6:21:10"
+	},
+	{
+		"station": "85/西 院",
+		"arrival": "6:22:45",
+		"depuature": "6:23:05"
+	},
+	{
+		"station": "95/西京極",
+		"arrival": "6:25:00",
+		"depuature": "6:25:20"
+	},
+	{
+		"station": "105/桂",
+		"arrival": "6:27:50",
+		"depuature": "6:28:20"
+	},
+	{
+		"station": "100/洛西口",
+		"arrival": "6:30:10",
+		"depuature": "6:30:30"
+	},
+	{
+		"station": "85/東向日",
+		"arrival": "6:31:50",
+		"depuature": "6:32:10"
+	},
+	{
+		"station": "95/西向日",
+		"arrival": "6:33:55",
+		"depuature": "6:34:15"
+	},
+	{
+		"station": "100/長岡天神",
+		"arrival": "6:36:10",
+		"depuature": "6:36:40"
+	},
+	{
+		"station": "90/西山天王山",
+		"arrival": "6:38:15",
+		"depuature": "6:38:35"
+	},
+	{
+		"station": "110/大山崎",
+		"arrival": "6:40:40",
+		"depuature": "6:41:00"
+	},
+	{
+		"station": "100/水無瀬",
+		"arrival": "6:42:55",
+		"depuature": "6:43:15"
+	},
+	{
+		"station": "70/上 牧",
+		"arrival": "6:44:25",
+		"depuature": "6:44:45"
+	},
+	{
+		"station": "110/高槻市",
+		"arrival": "6:48:00",
+		"depuature": "6:48:30"
+	},
+	{
+		"station": "110/富 田",
+		"arrival": "p",
+		"depuature": "6:50:50"
+	},
+	{
+		"station": "110/総持寺",
+		"arrival": "p",
+		"depuature": "6:51:30"
+	},
+	{
+		"station": "110/茨木市",
+		"arrival": "6:52:40",
+		"depuature": "6:53:20"
+	},
+	{
+		"station": "95/南茨木",
+		"arrival": "6:55:10",
+		"depuature": "6:55:40"
+	},
+	{
+		"station": "110/摂津市",
+		"arrival": "p",
+		"depuature": "6:57:30"
+	},
+	{
+		"station": "110/正 雀",
+		"arrival": "p",
+		"depuature": "6:58:40"
+	},
+	{
+		"station": "110/相 川",
+		"arrival": "p",
+		"depuature": "7:00:10"
+	},
+	{
+		"station": "105/上新庄",
+		"arrival": "7:01:00",
+		"depuature": "7:01:30"
+	},
+	{
+		"station": "80/淡 路",
+		"arrival": "7:04:20",
+		"depuature": "7:05:00"
+	},
+	{
+		"station": "55/柴 島",
+		"arrival": "p",
+		"depuature": "7:07:10"
+	},
+	{
+		"station": "65/天神橋筋六丁目",
+		"arrival": "7:10:00",
+		"depuature": "t"
+	}
+]

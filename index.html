@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>スターフ</title>
+</head>
+<body>
+    <div class="array"></div>
+
+    
+    <style>
+        .row {
+            display: flex;
+        }
+    </style>
+    <script>
+                // XMLHttpRequestを使ってjsonデータを読み込む
+        let requestURL = './station.json';//jsonへのパス
+        let request = new XMLHttpRequest();
+        request.open('GET', requestURL);
+        request.responseType = 'json';
+        request.send();
+        
+        // JSONデータをJavaScriptオブジェクトに変換
+        request.onload = function () {
+        let data = request.response;
+        data = JSON.parse(JSON.stringify(data));
+        dataArray(data);
+        }
+        
+        // foreachでJSONデータをHTMLに出力
+        function dataArray(els) {
+        // JSONデータを出力したいHTML要素を指定
+        let array = document.querySelector('.array');
+        els.forEach(el => {
+            let station = el.station;
+            let arrival = el.arrival;
+            let depuature = el.depuature;
+            let code = '<ul class="row">'+
+            '<li>' + station + '</li>'+
+            '<li>' + arrival + '</li>'+
+            '<li>' + depuature + '</li>'+
+            '</ul>';
+            array.insertAdjacentHTML('beforeend',code);
+        });
+        }
+    </script>
+</body>
+</html>
