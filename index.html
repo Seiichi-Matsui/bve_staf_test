@@ -15,8 +15,40 @@
     <button id="reset">リセット</button>
 
     <style>
-        .row {
+      .array {
+            width: 90vw;
+            margin: 0 auto;
+
+      }
+
+        .side {
+          width: 100%;
             display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .side:last-child {
+          border-bottom: 2px solid #000;
+        }
+
+        li {
+          border-top: 2px solid #000;
+          border-left: 2px solid #000;
+          margin: 0;
+          font-size: 60px;
+          list-style: none;
+          width: 33.333%;
+          text-align: center;
+
+        }
+
+        li:nth-child(1) {
+          font-size: 35px;
+        }
+
+        li:nth-child(3) {
+          border-right: 2px solid #000;
         }
     </style>
     <script>
@@ -43,7 +75,7 @@
             let station = el.station;
             let arrival = el.arrival;
             let depuature = el.depuature;
-            let code = '<ul class="row">'+
+            let code = '<ul class="side">'+
             '<li>' + station + '</li>'+
             '<li>' + arrival + '</li>'+
             '<li>' + depuature + '</li>'+
